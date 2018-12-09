@@ -1,0 +1,15 @@
+.center-text {
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.display-block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

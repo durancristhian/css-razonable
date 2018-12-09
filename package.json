@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck docs/slides.mdx"
+    "build": "npm run copy-assets && mdx-deck build src/slides.mdx -d docs",
+    "copy-assets": "mkdir -p ./docs/assets && cp -R ./src/assets/. ./docs/assets",
+    "start": "mdx-deck src/slides.mdx"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mdx-deck": "^1.8.1",
+    "mdx-deck": "^1.8.2",
     "mdx-deck-code-surfer": "^0.5.3",
     "prettier": "^1.15.3",
     "prop-types": "^15.6.2",
