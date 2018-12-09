@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck src/slides.mdx"
+    "start": "mdx-deck docs/slides.mdx"
   },
   "keywords": [],
   "author": "",
